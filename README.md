@@ -1,4 +1,4 @@
-# 🚀 Production RAG Platform
+#  Production RAG Platform
 
 A Retrieval-Augmented Generation (RAG) system built with:
 
@@ -9,14 +9,12 @@ A Retrieval-Augmented Generation (RAG) system built with:
 - LangChain (LCEL)
 
 ---
-
-## 🏗 Architecture
+##  Architecture
 
 Streamlit → FastAPI → RAG Pipeline → FAISS → Gemini LLM
 
 ---
-
-## 📂 Project Structure
+##  Project Structure
 
 backend/
   core/
@@ -27,22 +25,22 @@ backend/
 
 frontend/
   streamlit_app.py
-
+  
 ---
 
-## ⚙️ Setup
+##  Setup
 
-### 1️⃣ Clone the repo
+### 1️ Clone the repo
 git clone <repo_url>
 cd rag-platform
 
-### 2️⃣ Backend setup
+### 2️ Backend setup
 
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-### 3️⃣ Frontend setup
+### 3️ Frontend setup
 
 cd frontend
 pip install -r requirements.txt
@@ -50,18 +48,10 @@ streamlit run streamlit_app.py
 
 ---
 
-## 🔮 Features
+##  Features
 
 - Document ingestion
 - Semantic search with FAISS
 - Context-aware generation
 - Source document transparency
 - Modular RAG pipeline
----
-## 🛣 Future Improvements
-
-- JWT authentication
-- Redis caching
-- Async processing
-- Dockerization
-- Cloud deployment
