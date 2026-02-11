@@ -8,12 +8,11 @@ A Retrieval-Augmented Generation (RAG) system built with:
 - Google Gemini Embeddings
 - LangChain (LCEL)
 
----
 ##  Architecture
 
 Streamlit → FastAPI → RAG Pipeline → FAISS → Gemini LLM
 
----
+
 ##  Project Structure
 
 backend/
@@ -26,7 +25,6 @@ backend/
 frontend/
   streamlit_app.py
   
----
 
 ##  Setup
 
@@ -46,7 +44,6 @@ cd frontend
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 
----
 
 ##  Features
 
